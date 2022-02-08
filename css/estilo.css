@@ -60,3 +60,16 @@ ul {
 #topo ul a:hover {
     color: #69001d;
 }
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.inter #navegacao a#inter,
+body.fotos #navegacao a#fotos,
+body.eco #navegacao a#eco,
+body.saude #navegação a#saude,
+body.ciencia #navegacao a#ciencia{
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+}
+
