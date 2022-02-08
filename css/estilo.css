@@ -73,3 +73,37 @@ body.ciencia #navegacao a#ciencia{
     cursor: text;
 }
 
+#conteudo {
+    margin-top: 60px;
+    background: #f3f3f3;
+}
+
+#primario {
+    width: 270px;
+    float: left;
+    background: magenta;
+}
+
+#secundario {
+    width: 270px;
+    float: left;
+    background: maroon;
+}
+
+#lateral {
+    width: 180px;
+    float: left;
+    background: midnightblue;
+}
+
+#containerRodape{
+    background: #294c71;
+    padding: 20px;
+}
+
+#rodape {
+    width: 750px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
