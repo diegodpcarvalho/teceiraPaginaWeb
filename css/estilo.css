@@ -80,18 +80,21 @@ body.ciencia #navegacao a#ciencia{
 
 #primario {
     width: 270px;
+    margin: 0 0 20px 195px;
     float: left;
     background: magenta;
 }
 
 #secundario {
     width: 270px;
+    margin: 0 0 20px 15px ;
     float: left;
     background: maroon;
 }
 
 #lateral {
     width: 180px;
+    margin:0 0 20px -750px ;
     float: left;
     background: midnightblue;
 }
