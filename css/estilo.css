@@ -82,7 +82,16 @@ body.ciencia #navegacao a#ciencia{
     width: 270px;
     margin: 0 0 20px 195px;
     float: left;
-    background: magenta;
+}
+
+#duasColunas #primario {
+    width: 555px;
+
+}
+
+#umaColunas #primario {
+    width: 750px;
+    margin: 0 0 20px 0;
 }
 
 #secundario {
@@ -96,12 +105,66 @@ body.ciencia #navegacao a#ciencia{
     width: 180px;
     margin:0 0 20px -750px ;
     float: left;
-    background: midnightblue;
+}
+
+.caixa {
+    background: #f3f3f3 url(../imagens/fundo-caixa.png);
+    margin: 10px 0;
+    padding: 5px;
+}
+
+h2 {
+    font-size: 1.1em;
+    background: #294c71;
+    color: white;
+    padding: 5px;
+}
+
+.caixaConteudo{
+    background: rgb(255, 255, 255);
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#lateral ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 3px;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+    background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+    color: #a1a1a1;
+    padding-left: 20px;
 }
 
 #containerRodape{
     background: #294c71;
     padding: 20px;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input{
+    padding: 5px;
+    margin: 5px 0 ;
+    font-size: 0.9em;
+    background-color: #fff;
+    width: 125px;
+}
+
+input.submit {
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
 }
 
 #rodape {
