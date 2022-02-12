@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 body {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     background: #fff url(../imagens/fundo.png) repeat-x;
@@ -54,7 +55,7 @@ ul {
 }
 
 #topo ul .primeiro a {
-    background: none;
+	background: none;
 }
 
 #topo ul a:hover {
@@ -62,15 +63,13 @@ ul {
 }
 
 body.home #navegacao a#home,
-body.brasil #navegacao a#brasil,
+body.brasil #navegacao a#brasil, 
 body.inter #navegacao a#inter,
-body.fotos #navegacao a#fotos,
-body.eco #navegacao a#eco,
-body.saude #navegação a#saude,
-body.ciencia #navegacao a#ciencia{
-    color: #fff;
-    background: #de003e;
-    cursor: text;
+body.fotos #navegacao a#fotos 
+{
+	color: #fff;
+	background: #de003e;
+	cursor: text;
 }
 
 #conteudo {
@@ -89,7 +88,7 @@ body.ciencia #navegacao a#ciencia{
 
 }
 
-#umaColunas #primario {
+#umaColuna #primario {
     width: 750px;
     margin: 0 0 20px 0;
 }
